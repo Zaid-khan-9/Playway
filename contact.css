@@ -1,0 +1,175 @@
+html {
+  
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  
+}
+body {
+
+  padding: 0px;
+  margin: 0px;
+  
+
+  }
+.titlebox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  background-color: #212121;
+  width: 100%;
+  }
+.title {
+  color: white;
+  font-size: 16px;
+  
+  
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.ham {
+  color: white;
+  margin: 5%;
+  
+  }
+.ham2 {
+  opacity: 0;
+  margin: 5%;
+  
+  }
+.hamcontainer {
+  overflow: hidden;
+  display: none;
+  
+  }
+.hamcontainer a {
+  text-decoration: none;
+  color: white;
+  
+  }
+  
+  
+.hamcontainer p {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+
+  }
+  
+  
+  
+  
+  
+.header {
+  height: 20px;
+  overflow: visible;
+  
+  
+  background-color: #212121;
+  transition: 1s;
+  
+  
+}
+.header:hover {
+  
+  height: 15rem;
+  
+  transition: 1s;
+  
+  
+  
+  }
+
+.header:hover .hamcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  
+  
+  
+  
+}
+
+.pagecontent {
+  margin-top: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 4rem;
+  }
+.footercontainer {
+  color: white;
+  background-color: #212121;
+  padding: 3px;
+  font-size: 10px;
+  }
+  
+  
+  
+.footer {
+  height: auto;
+  width: 100%;
+  color: white;
+  
+  Background-color: #212121;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  
+  
+  
+  
+  }
+  
+.rightfoot {
+  height: 100%;
+  
+  width: 50em;
+  
+  
+  }
+.leftfoot {
+  height: 100%;
+  
+  width: 50em;
+  
+  
+  }
+  
+.bottomfoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  }
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
